@@ -24,9 +24,31 @@ header > h1 {
     text-align: center;
 
 }
+div{background-color: rgba(36, 34, 34, 0.603) ;
+    width: 100vw;
+}
+
+div > img {
+    background-color: rgba(61, 59, 59, 0.603);
+    text-align: center;
+    margin: 0px auto;
+    display: block;
+    align-items: center;
+    padding: 10px;
+
+}
+div:hover{
+    background-color: rgb(185, 178, 170);
+    cursor: pointer;
+}
+
+img:hover{
+    background-color: rgb(185, 178, 170);
+    cursor: pointer;
+}
 
 menu{
-    display: block;
+    display: none;
 }
 
 menu > ul{
